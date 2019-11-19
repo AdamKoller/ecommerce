@@ -10,20 +10,31 @@ class Header extends Component {
 
 render () {
   return (
-    <header>
-      <div className='store-title'>
-        Philo
-      </div>
-        <nav>
+    <div className="content-area-homepage">
+      <header>
+        <div className='store-title'>
+          Blast Beats
+        </div>
+        <div className='menu'>
           <a href="#">About</a>
-          <a href="#">Shop</a>
-          <a href="#">Car</a>
-        </nav>
-
-        <section className="search-area">
-          <input type='text' name="search" placeholder="Search"/>
-        </section>
-    </header>
+          <a href="#">New Arrivals</a>
+          <a href="#">Cart</a>
+        </div>
+      </header>
+      <section className="content-area-product">
+        <div className="top-section">
+          <div className="product">
+            <div className="product-bubble">
+              <img src=""/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="product-title">
+        <h3> Tama </h3>
+        <h1> Starclassic </h1>
+      </div>
+    </div>
   );
 }
 }
