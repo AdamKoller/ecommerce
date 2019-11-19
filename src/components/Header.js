@@ -17,9 +17,9 @@ render () {
         <nav>
           <a href="#">About</a>
           <a href="#">Shop</a>
-          <a href="#">Cart</a>
+          <a href="#">Car</a>
         </nav>
-        
+
         <section className="search-area">
           <input type='text' name="search" placeholder="Search"/>
         </section>
