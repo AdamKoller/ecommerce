@@ -10,7 +10,7 @@ class Header extends Component {
 
 render () {
   return (
-    <div className="content-area-homepage">
+    <div>
       <header>
         <div className='store-title'>
           Blast Beats
@@ -25,7 +25,7 @@ render () {
         <div className="top-section">
           <div className="product">
             <div className="product-bubble">
-              <img src=""/>
+              <img src="https://media.sweetwater.com/api/i/q-82__ha-aaeb7f95b0a4bd7d__hmac-ccba3150b7aee323aa2c895b182d7f99b98a5925/images/items/750/AR529S-UMG-large.jpg"/>
             </div>
           </div>
         </div>
