@@ -21,11 +21,15 @@ render () {
           <a href="#">Cart</a>
         </div>
       </header>
+      <div className='spacer'>text</div>
+      <div className='free-shipping'>
+        Free Shipping On All Orders | Buy Now Pay Later With <span className='klarna'>Klarna</span>
+      </div>
       <section className="content-area-product">
         <div className="top-section">
-          <div className="product">
+          <div className="product-wrapper">
             <div className="product-bubble">
-              <img src="https://media.sweetwater.com/api/i/q-82__ha-aaeb7f95b0a4bd7d__hmac-ccba3150b7aee323aa2c895b182d7f99b98a5925/images/items/750/AR529S-UMG-large.jpg"/>
+              <img src="https://drummersonly.co.uk/wp-content/uploads/2018/10/yf96S1Ug-800x800.jpeg"/>
             </div>
           </div>
         </div>
