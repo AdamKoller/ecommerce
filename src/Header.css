@@ -7,14 +7,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #0d0d0d;
 }
 header .store-title {
-  color: #ffffff;
   float: left;
   width: 33%;
   font-size: 40px;
   text-transform: uppercase;
+}
+header .blast {
+  margin-right: 1px;
+}
+header .t {
+  color: #00BBE3;
+}
+header .beats {
+  margin-left: 1px;
 }
 header .menu {
   font-size: 20px;
@@ -23,7 +30,7 @@ header .menu {
 header .menu a {
   text-decoration: none;
   padding-right: 16px;
-  color: #ffffff;
+  color:
 }
 .spacer {
   height: 100px;
@@ -31,14 +38,21 @@ header .menu a {
 .free-shipping {
   width: 100%;
   padding: 20px;
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 300;
   text-align: center;
   position: fixed;
   z-index: 10;
-  background: #bababd;
+  background: #41454D;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.free-shipping .line {
+  font-size: 26px;
+  font-weight: 400;
 }
 .free-shipping .klarna {
-
+  font-weight: 700;
 }
 .top-section {
   height: 100vh;

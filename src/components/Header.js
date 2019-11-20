@@ -13,7 +13,7 @@ render () {
     <div>
       <header>
         <div className='store-title'>
-          Blast Beats
+          <span className='blast'>Blas<span className='t'>t</span></span> <span className='beats'>Beats</span>
         </div>
         <div className='menu'>
           <a href="#">About</a>
@@ -21,9 +21,9 @@ render () {
           <a href="#">Cart</a>
         </div>
       </header>
-      <div className='spacer'>text</div>
+      <div className='spacer'></div>
       <div className='free-shipping'>
-        Free Shipping On All Orders | Buy Now Pay Later With <span className='klarna'>Klarna</span>
+        Free Shipping On All Orders <span className='line'>|</span> Buy Now Pay Later With <span className='klarna'>Klarna</span>
       </div>
       <section className="content-area-product">
         <div className="top-section">
