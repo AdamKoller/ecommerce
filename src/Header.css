@@ -12,7 +12,7 @@ header {
 header .store-title {
   color: #41454D;
   float: left;
-  width: 33%;
+  /* width: 33%; */
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -33,8 +33,13 @@ header .menu {
 }
 header .menu a {
   text-decoration: none;
-  padding-right: 16px;
+  padding-right: 30px;
   color: #41454D;
+  font-size: 22px;
+}
+header .menu a .fa {
+  font-size: 30px;
+  margin-right: -28px;
 }
 .spacer {
   height: 100px;

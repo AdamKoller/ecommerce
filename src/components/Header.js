@@ -18,7 +18,7 @@ render () {
         <div className='menu'>
           <a href="#">About</a>
           <a href="#">New Arrivals</a>
-          <a href="#">Cart</a>
+          <a href="#"><i className="fa fa-shopping-cart"></i></a>
         </div>
       </header>
       <div className='spacer'></div>
