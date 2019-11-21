@@ -1,4 +1,5 @@
 header {
+  background: #fff;
   width: 100%;
   height: 100px;
   padding: 20px;
@@ -9,19 +10,22 @@ header {
   align-items: center;
 }
 header .store-title {
+  color: #41454D;
   float: left;
   width: 33%;
   font-size: 40px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 header .blast {
-  margin-right: 1px;
+  margin-right: -8px;
+  position: absolute;
 }
 header .t {
   color: #00BBE3;
 }
 header .beats {
-  margin-left: 1px;
+  margin-left: 108px;
 }
 header .menu {
   font-size: 20px;
@@ -30,7 +34,7 @@ header .menu {
 header .menu a {
   text-decoration: none;
   padding-right: 16px;
-  color:
+  color: #41454D;
 }
 .spacer {
   height: 100px;
@@ -44,7 +48,7 @@ header .menu a {
   position: fixed;
   z-index: 10;
   background: #41454D;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
 }
 .free-shipping .line {
