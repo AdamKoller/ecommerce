@@ -18,7 +18,7 @@ render () {
         <div className='menu'>
           <a href="#">About</a>
           <a href="#">New Arrivals</a>
-          <a href="#"><i className="fa fa-shopping-cart"></i></a>
+          <a href="#" className='cart'><i className="fa fa-shopping-cart"></i>2</a>
         </div>
       </header>
 
@@ -39,15 +39,6 @@ render () {
           </div>
         </div>
 
-        <div className="top-section">
-          <div className="product-wrapper">
-            <img src="https://www.cahousemusic.com/images/product/large/ae00-8577.jpg"/>
-          </div>
-          <div className="product-title">
-            <h3> Mapex </h3>
-            <h1> Stage Custom </h1>
-          </div>
-        </div>
       </section>
     </div>
   );
