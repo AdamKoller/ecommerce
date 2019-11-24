@@ -38,7 +38,29 @@ render () {
             <h1> Imperialstar </h1>
           </div>
         </div>
+      </section>
 
+      <section id='cart-popup' className='active'>
+        <div>
+          <div className='cart-title'>My Cart</div>
+        </div>
+        <div className='cart-items'>
+          <div className='item'><img src='https://www.kickstartyourdrumming.com/wp-content/uploads/2017/10/51t5fnYm88L.jpg'/></div>
+          <div className='item-delete'>
+            <div className='delete-button'>X</div>
+          </div>
+        </div>
+        <div className='cart-product-total'>
+        <div className='cart-price-total-title'>Total</div>
+        <div className='cart-price-total-price'>x4</div>
+        </div>
+        <div className='cart-price-total'>
+          <div className='cart-price-total-title'>Total</div>
+          <div className='cart-price-total-price'>$750</div>
+        </div>
+        <div className='cart-checkout'>
+          Checkout
+        </div>
       </section>
     </div>
   );

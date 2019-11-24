@@ -2,6 +2,7 @@
   colors
 black = #41454D
 blue = #00BBE3
+grey = #DCE3E2
 */
 header {
   background: #fff;
@@ -47,7 +48,7 @@ header .menu a:hover {
 }
 header .menu a .fa {
   font-size: 30px;
-  margin-right: -28px;
+  margin-right: 6px;
 }
 .spacer {
   height: 100px;
@@ -71,6 +72,13 @@ header .menu a .fa {
 .free-shipping .klarna {
   font-weight: 700;
 }
+/* .content-area-product {
+  filter: blur(0);
+  transition: filter .4s ease-in-out;
+}
+.content-area-product &.popup-cart-active {
+  filter: blur(200px);
+} */
 .top-section {
   height: 100vh;
   width: 100%;
@@ -104,4 +112,47 @@ header .menu a .fa {
   font-size: 46px;
   font-weight: 700;
   color:#41454D;
+}
+#cart-popup {
+  background: #fff;
+  -webkit-box-shadow: 0px -2px 10px 0px rgba(65,69,77,1);
+    -moz-box-shadow: 0px -2px 10px 0px rgba(65,69,77,1);
+    box-shadow: 0px -2px 10px 0px rgba(65,69,77,1);
+  height:300px;
+  width: 100%;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  bottom: 0;
+  z-index: 10;
+}
+.cart-items {
+
+}
+.item {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.item img {
+  width: 70%;
+}
+.item-delete {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px
+}
+.delete-button {
+  background: #00BBE3;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
