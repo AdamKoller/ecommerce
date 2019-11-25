@@ -50,6 +50,22 @@ header .menu a .fa {
   font-size: 30px;
   margin-right: 6px;
 }
+header .menu .cart {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px 30px;
+}
+header .menu .cart:hover {
+  background: #00BBE3;
+  color: #41454D;
+  transition: .3s ease-in-out;
+}
+header .menu .cart:hover .cart-item-selected  {
+
+}
+/* header .menu .cart-item-selected {
+  color: #00BBE3;
+} */
 .spacer {
   height: 100px;
 }
@@ -68,17 +84,18 @@ header .menu a .fa {
 .free-shipping .line {
   font-size: 26px;
   font-weight: 400;
+  color: #00BBE3;
 }
 .free-shipping .klarna {
   font-weight: 700;
 }
-/* .content-area-product {
+.content-area-product {
   filter: blur(0);
-  transition: filter .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
-.content-area-product &.popup-cart-active {
-  filter: blur(200px);
-} */
+.popup-cart-active {
+  filter: blur(6px);
+}
 .top-section {
   height: 100vh;
   width: 100%;
@@ -118,16 +135,25 @@ header .menu a .fa {
   -webkit-box-shadow: 0px -2px 10px 0px rgba(65,69,77,1);
     -moz-box-shadow: 0px -2px 10px 0px rgba(65,69,77,1);
     box-shadow: 0px -2px 10px 0px rgba(65,69,77,1);
-  height:300px;
   width: 100%;
   position: fixed;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 10% 50% 1fr 1fr 1fr;
   bottom: 0;
   z-index: 10;
 }
-.cart-items {
-
+.cart-title-wrapper {
+  width: 100px;
+  max-width: 100px;
+  position: relative;
+}
+.cart-title {
+  position: absolute;
+  font-size: 30px;
+  width: 200px;
+  color: #41454D;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
 }
 .item {
   width: 200px;
@@ -140,12 +166,11 @@ header .menu a .fa {
 }
 .item img {
   width: 70%;
-  position: absolute;
   left: 20px;
   top: 24px;
 }
 .item-delete {
-  width: 90%;
+  width: 100%;
   height: 50%;
   background: #fff;
   display: flex;
@@ -157,7 +182,7 @@ header .menu a .fa {
 .delete-button {
   background: #fff;
   position: absolute;
-  top: 70px;
+  top: 60px;
   width: 30px;
   height: 30px;
   display: flex;
@@ -169,5 +194,5 @@ header .menu a .fa {
   cursor: pointer;
   background: #00BBE3;
   border: 1px solid #41454D;
-  transition: .2s ease-in-out;
+  transition: .3s ease-in-out;
 }
