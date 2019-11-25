@@ -145,7 +145,7 @@ header .menu a .fa {
   top: 24px;
 }
 .item-delete {
-  width: 100%;
+  width: 90%;
   height: 50%;
   background: #fff;
   display: flex;
@@ -154,19 +154,20 @@ header .menu a .fa {
   padding: 10px;
   border-radius: 10px;
 }
-.item-delete:hover {
-  border: 1px solid #41454D;
-  transition: .2s ease-in-out;
-}
 .delete-button {
-  background: #00BBE3;
+  background: #fff;
   position: absolute;
   top: 70px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 10%;
+}
+.delete-button:hover {
+  cursor: pointer;
+  background: #00BBE3;
   border: 1px solid #41454D;
+  transition: .2s ease-in-out;
 }
