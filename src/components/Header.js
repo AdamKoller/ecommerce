@@ -110,8 +110,8 @@ render () {
         </div>
 
         <div className='cart-product-total'>
-          <div className='cart-product-title'>Total</div>
-          <div className='cart-product-number'>x4</div>
+          <div className='cart-product-title'>Items</div>
+          <div className='cart-product-number'>4</div>
         </div>
 
         <div className='cart-price-total'>
@@ -122,7 +122,7 @@ render () {
         <div className='cart-checkout'>
           Checkout
         </div>
-        
+
       </section>
     </div>
   );

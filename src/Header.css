@@ -219,8 +219,28 @@ header .menu .cart:hover .cart-item-selected  {
   display: inline-block;
   padding: 5px 20px;
   border-radius: 20px;
+  text-transform: uppercase;
 }
 .cart-product-number {
+  font-size: 24px;
+  font-weight: 700;
+  color: #41454D
+}
+.cart-price-total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cart-price-total-title {
+  background: #00BBE3;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.cart-price-total-price {
   font-size: 24px;
   font-weight: 700;
   color: #41454D
