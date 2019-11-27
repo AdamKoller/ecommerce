@@ -138,22 +138,24 @@ header .menu .cart:hover .cart-item-selected  {
   width: 100%;
   position: fixed;
   display: grid;
-  grid-template-columns: 10% 50% 1fr 1fr 1fr;
+  grid-template-columns: 15% 50% 1fr 1fr 1fr;
   bottom: 0;
   z-index: 10;
 }
 .cart-title-wrapper {
-  width: 100px;
+  /* width: 100px;
   max-width: 100px;
-  position: relative;
+  position: relative; */
 }
 .cart-title {
-  position: absolute;
-  font-size: 30px;
+  padding: 42px 0 8px;
+  /* position: absolute; */
+  /* color: #00BBE3; */
+  font-size: 40px;
+  text-align: center;
   width: 200px;
   color: #41454D;
   text-transform: uppercase;
-  transform: rotate(-90deg);
 }
 .item {
   width: 200px;
