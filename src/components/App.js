@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import '../App.css';
+import '../css/App.css';
 import Header from './Header.js';
-import '../Header.css';
+import '../css/Header.css';
 import Items from './Items.js';
-import '../Items.css';
+import '../css/Items.css';
 import Cart from './Cart.js';
-import '../Cart.css';
+import '../css/Cart.css';
 
 
 class App extends Component {

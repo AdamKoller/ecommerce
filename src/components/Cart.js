@@ -20,7 +20,7 @@ render () {
           <div className='cart-items'>
             <div className='item-wrapper'>
               <div className='item'>
-                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png'/>
+                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png' alt='drums'/>
                 <div className='item-delete'>
                   <div className='delete-button'>
                     X
@@ -30,7 +30,7 @@ render () {
             </div>
             <div className='item-wrapper'>
               <div className='item'>
-                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png'/>
+                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png' alt='drums'/>
                 <div className='item-delete'>
                   <div className='delete-button'>
                     X
@@ -40,7 +40,7 @@ render () {
             </div>
             <div className='item-wrapper'>
               <div className='item'>
-                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png'/>
+                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png' alt='drums'/>
                 <div className='item-delete'>
                   <div className='delete-button'>
                     X
@@ -50,7 +50,7 @@ render () {
             </div>
             <div className='item-wrapper'>
               <div className='item'>
-                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png'/>
+                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png' alt='drums'/>
                 <div className='item-delete'>
                   <div className='delete-button'>
                     X
@@ -60,7 +60,7 @@ render () {
             </div>
             <div className='item-wrapper'>
               <div className='item'>
-                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png'/>
+                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png' alt='drums'/>
                 <div className='item-delete'>
                   <div className='delete-button'>
                     X
@@ -70,7 +70,7 @@ render () {
             </div>
             <div className='item-wrapper'>
               <div className='item'>
-                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png'/>
+                <img src='https://www.grahamrusselldrums.com/media/catalog/product/cache/1/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/t/a/tama_star_bubinga_smokey_black_set.png' alt='drums'/>
                 <div className='item-delete'>
                   <div className='delete-button'>
                     X
