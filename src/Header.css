@@ -93,7 +93,7 @@ header .menu .cart:hover .cart-item-selected  {
   filter: blur(0);
   transition: .4s ease-in-out;
 }
-.popup-cart-active {
+.content-area-product .popup-cart-active {
   filter: blur(6px);
 }
 .top-section {
@@ -141,6 +141,11 @@ header .menu .cart:hover .cart-item-selected  {
   grid-template-columns: 5% 50% 1fr 1fr 1fr;
   bottom: 0;
   z-index: 10;
+  transform: translate3d(0,200px,0);
+  transition: .3s ease-in-out;
+}
+#cart-popup.active {
+  transform: translate3d(0,0,0);
 }
 .cart-title-wrapper {
   width: 100px;
