@@ -120,7 +120,9 @@ render () {
         </div>
 
         <div className='cart-checkout'>
-          Checkout
+          <div className='cart-checkout-title'>
+            Checkout
+          </div>
         </div>
 
       </section>

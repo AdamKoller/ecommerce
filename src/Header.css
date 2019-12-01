@@ -245,3 +245,18 @@ header .menu .cart:hover .cart-item-selected  {
   font-weight: 700;
   color: #41454D
 }
+.cart-checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex-direction: column;
+}
+.cart-checkout:hover {
+  background: #EBF2F1;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+}
