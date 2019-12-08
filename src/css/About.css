@@ -5,13 +5,12 @@
   background-size: cover;
   height: 621px;
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('http://www.goliath.com/wp-content/uploads/2015/07/Dave-Grohl3.jpg')no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('http://www.goliath.com/wp-content/uploads/2015/07/Dave-Grohl3.jpg')no-repeat center center fixed;
 }
 .wrapper .about-content {
   color: white;
   text-align: center;
-  margin: 152px;
-  background: rgba(0,0,0,0.7);
+  margin: 100px;
   position: absolute;
   border-radius: 10px;
   text-transform: uppercase;

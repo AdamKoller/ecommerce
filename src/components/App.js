@@ -11,6 +11,8 @@ import Cart from './Cart.js';
 import '../css/Cart.css';
 import About from './About.js';
 import '../css/About.css';
+import Products from './Products.js';
+import '../css/Products.css';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 class App extends Component {
@@ -28,6 +30,7 @@ class App extends Component {
           <Header/>
             <Switch>
               <Route exact path = '/' component = {Home} />
+              <Route exact path = '/products' component = {Products} />
               <Route exact path = '/about' component = {About} />
             </Switch>
         </div>
