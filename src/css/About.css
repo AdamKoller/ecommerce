@@ -1,4 +1,44 @@
-h1 {
-  color:black;
-  margin-top: 200px;
+.wrapper {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 621px;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('http://www.goliath.com/wp-content/uploads/2015/07/Dave-Grohl3.jpg')no-repeat center center fixed;
+}
+.wrapper .about-content {
+  color: white;
+  text-align: center;
+  margin: 152px;
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.wrapper .about-content .blast {
+  font-weight: 700;
+  position: absolute;
+  font-size: 26px;
+}
+.wrapper .about-content .blast .t {
+  color: #00BBE3;
+  font-weight: 700;
+  font-size: 26px;
+}
+.wrapper .about-content .beats {
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 70px;
+}
+.wrapper .about-content h1 {
+  font-size: 40px;
+  font-weight: 300;
+  padding: 10px;
+}
+.wrapper .about-content p {
+  font-size: 22px;
+  font-weight: 300;
+  padding: 0 100px 10px;
+  line-height: 40px;
 }
