@@ -10,7 +10,7 @@
 .wrapper .about-content {
   color: white;
   text-align: center;
-  margin: 100px;
+  padding: 200px 0 0;
   position: absolute;
   border-radius: 10px;
   text-transform: uppercase;
@@ -18,26 +18,21 @@
 .wrapper .about-content .blast {
   font-weight: 700;
   position: absolute;
-  font-size: 26px;
+  font-size: 30px;
 }
 .wrapper .about-content .blast .t {
   color: #00BBE3;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 30px;
 }
 .wrapper .about-content .beats {
   font-weight: 700;
-  font-size: 26px;
-  margin-left: 70px;
-}
-.wrapper .about-content h1 {
-  font-size: 40px;
-  font-weight: 300;
-  padding: 10px;
+  font-size: 30px;
+  margin-left: 81px;
 }
 .wrapper .about-content p {
   font-size: 22px;
   font-weight: 300;
-  padding: 0 100px 10px;
-  line-height: 40px;
+  padding: 0 200px;
+  line-height: 50px;
 }
