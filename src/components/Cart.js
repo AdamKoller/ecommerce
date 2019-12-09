@@ -11,7 +11,7 @@ class Cart extends Component {
 render () {
     return (
       <div>
-        <section id='cart-popup' className='active'>
+        <section id='cart-popup'> {/* add class='active' to show cart */}
           <div>
             <div className='cart-title-wrapper'>
               <div className='cart-title'>My Cart</div>
